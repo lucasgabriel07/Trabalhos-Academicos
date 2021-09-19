@@ -6,24 +6,24 @@ Implemente o TAD SLList e o utilize para fazer um programa com os seguintes requ
 - Defina uma estrutura do TIPO ESCOLHIDO ( tipo aluno, ou tipo disco, ou tipo
 Time, etc...) que tenha pelo menos os seguintes campos:
 
----- um campo char [30]
+    ---- um campo char [30]
 
----- um campo inteiro
+    ---- um campo inteiro
 
----- um campo float
+    ---- um campo float
 
 - Implemente as seguintes operações:
 
----- criar uma colecao
+    ---- criar uma colecao
 
----- Inserir um TIPO ESCOLHIDO na colecao
+    ---- Inserir um TIPO ESCOLHIDO na colecao
 
----- Remover um TIPO ESCOLHIDO na colecao identificado pelo campo char, int e float
+    ---- Remover um TIPO ESCOLHIDO na colecao identificado pelo campo char, int e float
 
----- Consultar um TIPO ESCOLHIDO na colecao identificado pelo campo char, int e float
+    ---- Consultar um TIPO ESCOLHIDO na colecao identificado pelo campo char, int e float
 
---- listar os elementos na colecao.
+    --- listar os elementos na colecao.
 
----- destruir a coleção se estiver vazia.
+    ---- destruir a coleção se estiver vazia.
 
----- esvaziar a colecão
+    ---- esvaziar a colecão
