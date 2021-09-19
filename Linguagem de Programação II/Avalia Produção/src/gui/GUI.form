@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.GUI">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="14" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="645" height="445"/>
+    </constraints>
+    <properties>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="954c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="Gerar Relatórios"/>
+        </properties>
+      </component>
+      <grid id="c5fd0" binding="panel2" layout-manager="FlowLayout" hgap="0" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="60fc0" class="javax.swing.JButton" binding="botao">
+            <constraints/>
+            <properties>
+              <horizontalTextPosition value="0"/>
+              <text value="Salvar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="cfdf2" binding="panel3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ef585" class="javax.swing.JComboBox" binding="comboBoxSetor">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="b3ce8" binding="panel4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="87da7" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="De:"/>
+            </properties>
+          </component>
+          <component id="ecd1c" class="javax.swing.JComboBox" binding="comboBoxInicio">
+            <constraints/>
+            <properties>
+              <model/>
+            </properties>
+          </component>
+          <component id="5ac36" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Até:"/>
+            </properties>
+          </component>
+          <component id="9f382" class="javax.swing.JComboBox" binding="comboBoxFim">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <component id="ed6d2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Selecionar Período:"/>
+        </properties>
+      </component>
+      <component id="4c8ac" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Selecionar Setor:"/>
+        </properties>
+      </component>
+      <vspacer id="b4a10">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="7c9a5">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3878b">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ad787" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value="Selecionar Relatórios:"/>
+        </properties>
+      </component>
+      <grid id="c9c71" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="150" bottom="0" right="0"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="23ed6" class="javax.swing.JCheckBox" binding="relatorio1CheckBox">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Produção, por professor"/>
+            </properties>
+          </component>
+          <component id="6aca7" class="javax.swing.JCheckBox" binding="relatorio2CheckBox">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Produção, por professor, separada por tipo"/>
+            </properties>
+          </component>
+          <component id="557f5" class="javax.swing.JCheckBox" binding="sinteseCheckBox">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Síntese por professor do quantitativo da produção"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="90fae">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="6479d">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ae5ef">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
